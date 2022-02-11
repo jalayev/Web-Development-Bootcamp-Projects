@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+/* 260 px width */
+#top-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: absolute;
+  top: 400px; left: 400px;
+  }
+
+/* 240px width */
+#middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  position: absolute;
+  top: 200px; left: 200px;
+}
+
+/* 220px width */
+#bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
+/* inline-block property adds some space between elements
+(despite the margin being set to 0) */

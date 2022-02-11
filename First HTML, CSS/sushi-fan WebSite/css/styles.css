@@ -1,0 +1,34 @@
+/****************Tag Selectors****************/
+body {
+  background-color: #B0C4DE;
+}
+
+h1 {
+  color: MediumPurple;
+}
+
+p:hover {
+  background-color: gold; 
+}
+
+/**************Class Selectors******************/
+.sushi {
+  background-color: green;
+  margin-right: 10px;
+}
+
+.burger {
+  background-color: red;
+}
+
+.rounded {
+    border-radius: 20%;
+}
+
+
+/**************Id Selectors*******************/
+     /*(unique name and only one per tag)*/
+#heading {
+  text-align: center;
+  font-size: 100px;
+}

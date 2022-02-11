@@ -1,0 +1,6 @@
+display: box; //(doesn't allow any content next to it even if the width is changed)
+display: inline; //(opposite of box, the width can't be changed)
+display: inline-box; //(allows content as inline based on the width that can be changed)
+
+image behaves like inline-box, though it is technically inline
+==========================================================================================

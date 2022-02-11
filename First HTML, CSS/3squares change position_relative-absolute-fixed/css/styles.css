@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+/*relative means the block is actually present where it was though hidden*/
+.container {
+  position: relative; /* or relative - douesn't matter as long as not static*/
+  width: 400px;
+  height: 400px;
+  background-color: grey;
+  left: 30px; top: 59px;
+}
+
+#top-container {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 200px; right: 100px;
+  }
+
+#middle-container {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 100px; left: 100px;
+
+}
+
+#bottom-container {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: fixed;
+}
